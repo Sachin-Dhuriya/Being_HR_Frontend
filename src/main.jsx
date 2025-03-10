@@ -5,9 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Routers from './Routers.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-
-    <BrowserRouter>
-      <Routers />
-    </BrowserRouter>
-
+  <BrowserRouter>
+    <Routers />
+  </BrowserRouter>
 );
