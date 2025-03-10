@@ -26,22 +26,23 @@ const Routers = () => {
       
         <Header  />
         <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/admin-user-querys' element={<DashBoard/>} />
-        <Route exact path='/admin-user-records' element={<UserDetails/>} />
-        <Route exact path='/admin' element={<AdminHome/>} />
-        <Route exact path='/event' element={<Events/>} />
-        <Route exact path='/skill_workshop' element={<Skill/>} />
-        <Route exact path='/events-registration' element={<EventRegistration/>} />
-        <Route exact path='/flagship' element={<FlagshipEventsPage/>} />
-        <Route exact path='/about' element={<About/>} />
-        <Route exact path='/blog' element={<Blog/>} />
-        <Route exact path='/contact' element={<Contact/>} />
-        <Route exact path='/signup' element={<SignupPage/>} />
-        <Route exact path='/login' element={<Login/>} />
-        <Route exact path='/createevent' element={<EventHosting/>} />
-        <Route path="/register/:eventId" element={<Skill />} />
-        </Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/admin-user-querys" element={<DashBoard />} />
+  <Route path="/admin-user-records" element={<UserDetails />} />
+  <Route path="/admin" element={<AdminHome />} />
+  <Route path="/event" element={<Events />} />
+  <Route path="/skill_workshop" element={<Skill />} />
+  <Route path="/events-registration" element={<EventRegistration />} />
+  <Route path="/flagship" element={<FlagshipEventsPage />} />
+  <Route path="/about" element={<About />} />
+  <Route path="/blog" element={<Blog />} />
+  <Route path="/contact" element={<Contact />} />
+  <Route path="/signup" element={<SignupPage />} />
+  <Route path="/login" element={<Login />} />
+  <Route path="/createevent" element={<EventHosting />} />
+  <Route path="/register/:eventId" element={<Skill />} />
+</Routes>
+
         <Footer/>
     </div>
   )
